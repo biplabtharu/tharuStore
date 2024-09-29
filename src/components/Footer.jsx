@@ -126,7 +126,7 @@ const Footer = () => {
 
         <div className="footer-main-text">
           <div>
-            <h3>Tharu Store</h3>
+            <h3>CG Local Store</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatibus, recusandae.

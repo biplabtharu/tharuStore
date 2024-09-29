@@ -1,16 +1,15 @@
-import HeroSection from "../components/HeroSection"
+import HeroSection from "../components/HeroSection";
 
 const About = () => {
-
   const data = {
-    name:"Tharu e-commerce",
-  }
+    name: "CG Local Store",
+  };
 
   return (
     <>
-      <HeroSection myData={data}/>
+      <HeroSection myData={data} />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

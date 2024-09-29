@@ -6,11 +6,11 @@ const Header = () => {
   const Header = styled.header`
     height: 8rem;
     padding: 2rem 5%;
-    background-color: ${({theme})=>theme.colors.header_bg};
+    background-color: ${({ theme }) => theme.colors.header_bg};
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     .logo a {
       color: #000;
       font-size: 3rem;
@@ -18,12 +18,12 @@ const Header = () => {
   `;
   return (
     <Header>
-        <div className="logo">
-          <NavLink to="/" alt="my logo img">
-            Tharu Store
-          </NavLink>
-        </div>
-        <Navbar />
+      <div className="logo">
+        <NavLink to="/" alt="my logo img">
+          CG Local Store
+        </NavLink>
+      </div>
+      <Navbar />
     </Header>
   );
 };

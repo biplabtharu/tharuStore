@@ -40,7 +40,7 @@ const Navbar = () => {
             position: absolute;
             top: -50%;
             border-radius: 50%;
-            padding: .6rem;
+            padding: 0.6rem;
             font-size: 1.2rem;
             font-weight: 600;
             color: #000;
@@ -146,15 +146,12 @@ const Navbar = () => {
           <li className="navbar-list cart">
             <NavLink to="/cart">
               <FiShoppingCart className="cart-trolley" />
-              <span className="cart-total--item">10</span>
-              {/* <Badge badgeContent={10} color="secondary">
-                <ShoppingCartIcon color="black" />
-              </Badge> */}
+              {/* <span className="cart-total--item">10</span> */}
             </NavLink>
           </li>
         </ul>
 
-        <div className="mobile-navbar-btn">
+        {/* <div className="mobile-navbar-btn">
           <CgMenu
             name="menu-icon"
             className="mobile-nav-icon menu-icon"
@@ -164,8 +161,8 @@ const Navbar = () => {
             name="close-icon"
             className="mobile-nav-icon close-icon"
             onClick={() => setMenuIcon(false)}
-          />
-        </div>
+          /> */}
+        {/* </div> */}
       </div>
     </Navbar>
   );

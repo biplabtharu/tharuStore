@@ -8,6 +8,7 @@ import SingleProduct from "./pages/SingleProduct";
 import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Cart from "./pages/Cart";
 
 const App = () => {
   const theme = {
@@ -47,8 +48,9 @@ const App = () => {
           <Route path="/products" element={<Products />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/singleproduct/:id" element={<SingleProduct />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </ThemeProvider>
   );
